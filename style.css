@@ -1,0 +1,11 @@
+#first {
+  color: aqua;
+  background-color: beige;
+}
+
+#second {
+  color: #fff;
+  background: #000fff;
+}
+
+/* background-color is for the background color only and background is for the background image only, whereas, background can be used for both */
