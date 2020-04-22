@@ -1,9 +1,8 @@
-#first {
-  color: rgb(100, 123, 56);
-  background-color: rgba(0, 0, 0, 0.5);
+h1 {
+  font-size: 60px;
+  width: 200px;
+  height: 400px;
+  background-color: blue;
 }
 
-#second {
-  color: rgb(121, 30, 92);
-  background-color: rgba(0, 0, 0, 0.931);
-}
+/* the above wont depend on the screen size of any other relative things, these are the absolute values and will remain same throught the spectrum of devices */
