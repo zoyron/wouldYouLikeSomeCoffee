@@ -1,11 +1,23 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: oblique;
+.one {
+  line-height: 2em;
 }
 
-.main {
-  font-family: "Courier New", Courier, monospace;
-  font-style: italic;
+.two {
+  letter-spacing: 5px;
+  text-decoration: underline;
 }
 
-/* font weight just makes your text heavier/lighter depending on what you want to make it */
+.three {
+  word-spacing: 20px;
+  text-decoration: overline;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+}
