@@ -1,8 +1,17 @@
-h1 {
-  font-size: 60px;
-  width: 200px;
-  height: 400px;
-  background-color: blue;
+div {
+  font-size: 8px;
 }
 
-/* the above wont depend on the screen size of any other relative things, these are the absolute values and will remain same throught the spectrum of devices */
+.relative {
+  font-size: 4em;
+}
+
+.absolute {
+  font-size: 32px;
+}
+
+/* em values are relative to the default size of their parent element. For eg, the base font size of a browser is 16px, them 1em is equal to 16px. If we use em values inside a div whose font size is 10px, then 1 em would be equal to 10px.  */
+
+/* here the parent element is the div of font size 32. the size of relative text is 4em, hence, it equals to 32 and the size of the absolute element text is 32px, it remains the same and both the text looks equal, if we change the font size of the parent element the size of the element which uses the relative sizing will also change. */
+
+/* if there is no parent div for the relative sizing, then the size of relative sizing will be taken from the browser value */
