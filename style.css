@@ -1,11 +1,9 @@
 #first {
-  color: aqua;
-  background-color: beige;
+  color: rgb(100, 123, 56);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #second {
-  color: #fff;
-  background: #000fff;
+  color: rgb(121, 30, 92);
+  background-color: rgba(0, 0, 0, 0.931);
 }
-
-/* background-color is for the background color only and background is for the background image only, whereas, background can be used for both */
