@@ -1,26 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 div {
-  width: 150px;
-  height: 150px;
+  min-height: 100vh;
   display: flex;
-  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: orange;
 }
 
-.one {
-  background: linear-gradient(red, green);
+.banner {
+  background: url("./biggerOne.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-.two {
-  background: linear-gradient(to top, red, green);
-}
-
-.three {
-  background: linear-gradient(45deg, red, green);
-}
-
-.four {
-  background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 255, 0.3));
-}
-
-body {
-  background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 255, 255, 1));
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url("./biggerOne.jpeg") center/cover no-repeat fixed;
 }
