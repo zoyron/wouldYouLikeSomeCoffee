@@ -1,28 +1,26 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+div {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  margin: 5px;
+}
+
+.one {
+  background: linear-gradient(red, green);
+}
+
+.two {
+  background: linear-gradient(to top, red, green);
+}
+
+.three {
+  background: linear-gradient(45deg, red, green);
+}
+
+.four {
+  background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 255, 0.3));
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 255, 255, 1));
 }
-
-ul li {
-  list-style-type: none;
-}
-
-ul li a {
-  text-decoration: none;
-  text-transform: capitalize;
-  letter-spacing: 2px;
-  background-color: #222;
-  color: orange;
-  display: block;
-  padding: 10px;
-  margin: 10px;
-}
-
-/* browser does not respect the margin and padding of the inline elements */
-
-/* the browser only respects the margin and padding of the block level elements */
