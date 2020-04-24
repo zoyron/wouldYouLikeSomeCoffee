@@ -1,29 +1,9 @@
-body {
-  background-color: yellow;
+p::before {
+  content: "hello ";
+  font-size: 40px;
+  color: red;
 }
 
-.banner {
-  background-color: blue;
+p::after {
+  content: " there";
 }
-
-h1 {
-  color: white;
-  text-align: center;
-  text-decoration: underline;
-  text-transform: capitalize;
-}
-
-@media screen and (min-width: 576px) {
-  body {
-    background: red;
-  }
-  .banner {
-    background-color: yellow;
-  }
-  h1 {
-    color: black;
-    font-size: 60px;
-  }
-}
-
-/* here it means, anything bigger than 576px will have a design defined inside the media query, the rest, i.e, lesser than 576px will have the designed used that is designed earlier */
